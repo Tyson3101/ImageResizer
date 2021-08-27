@@ -1,5 +1,5 @@
-https://github.com/Tyson3101/ImageResizer
+#### [https://tyson3101.github.io/ImageResizer](https://tyson3101.github.io/ImageResizer/)
 
-https://p5js.org/
+#### [https://p5js.org/](https://p5js.org/)
 
-A Image Resizer made with p5.js
+<p>An Image Resizer made with p5.js</p>

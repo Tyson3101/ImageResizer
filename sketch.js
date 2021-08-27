@@ -27,7 +27,7 @@ function draw() {
 
 function saveImage() {
   resizeImg.resize(width, height);
-  resizeImg.save(`${resizeImgName}${width}x${height}`);
+  resizeImg.save(`${resizeImgName}${width}x${height}`, "png");
 }
 
 function droppedFile(file) {

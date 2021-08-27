@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <header>
+      <h1>Image Resizer</h1>
+    </header>
+    <div class="center">
+      <img id="preview" alt="No Image Selected" />
+      <div class="imageDragContainer">
+        <p>Click, Paste, or Drag Image</p>
+        <input id="imageURL" type="text" placeholder="Image URL" />
+        <button id="loadImage">Load Image</button>
+      </div>
+
+      <p class="imageInfo">
+        Image Size: <input type="number" id="width" value="128" /> x
+        <input type="number" id="height" value="128" />
+      </p>
+
+      <p>
+        <button id="saveImage" onclick="saveImage()">Save Image</button>
+      </p>
+    </div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
